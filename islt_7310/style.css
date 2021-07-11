@@ -1,0 +1,35 @@
+h1 { color: #993333;}
+
+<style type="text/css">
+.wrapper {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    grid-template-rows: 5fr 5fr 20fr 5fr;
+    grid-gap: 10px;
+    height: 720px;
+}
+
+nav {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.wrapper * {
+    background: #CC9966;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+</style>
