@@ -1,0 +1,36 @@
+h1 { color: #993333;}
+
+<style type="text/css">
+.wrapper {
+    display: grid;
+    grid-template-columns: 5fr 3fr;
+    grid-template-rows: 10fr 5fr 70fr 5fr;
+    grid-gap: 10px;
+    height: 100vw;
+    height: 100vh;
+}
+
+nav {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.wrapper * {
+    background: #CC9966;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+</style>
