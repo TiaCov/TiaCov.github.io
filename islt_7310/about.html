@@ -1,0 +1,98 @@
+
+<!--Tried to create 2 column layout with pic on left side but grid lines not showing not sure if they are supposed to be and still cannot move content below menu. Tried div style position but it is still not working. .-->
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico">
+               <meta charset="utf-8">
+               <title>About Me</title>
+               <link rel="stylesheet" href="nav.css">
+               <link rel="stylesheet" href="style.css">         
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style> 
+    @font-face { 
+    
+        font-family: Salsa Font; /*this is where we give our font a name so we can use it!*/
+        
+        src: url("Salsa-Regular.ttf"); /*remember this is how we link to files in CSS!*/
+        
+        }
+
+body {
+  font-family: Salsa Font;
+}
+
+
+</style>
+</head>
+
+
+<body>
+    <nav id="nav_menu">
+        <label id="hamburger">&#9776;</label>
+        <ul>
+        <div class="wrapper">
+            
+            
+            <header class="header">
+                
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a>
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </li>
+                    <li><a href="reflection.html">Reflection</a></li>
+                    <li class="lastMobile"><a href="contact.html">Contact</a></li>
+                    
+            </nav>   
+            </ul>
+              </header>
+            <main class="Body">
+
+            <div class="body-left">
+                <div style = "position:relative;margin-top:200px;"></div> 
+                <h1>Tia Coverson</h1>
+                <h3>About Me</h3>
+            
+                <p>Hello! My name is Tia Coverson and I enjoy <em>all</em> things creative! I get excited about taking projects from concept to completion. This passion stems from a desire to enhance and simplify the lives of those around me. I believe the roots of any successful project is communication. It’s <em>one</em> of the main reasons I pursed and completed a Bachelor of Science degree in Communications. I minored in Integrated Marketing because I feel it is important to understand how to meet audiences where there are.</p>
+                <p>I also feel it is important to provide them with varying ways to meet course objectives. My degree has helped me to create <strong>user focused</strong> learning experiences. In an effort to further enhance my skills, I entered into a master’s program in Learning Technologies and Design. I expect to graduate at the end of Fall 2021.</p>
+            
+                <h3>Education</h3>
+            <p>I completed a Bachelor of Science degree in Communications from Washington University in 2020. I minored in Integrated Marketing. I am currently finishing up a Master of Science degree in Learning Technologies and Design. I expect to graduate in Fall of 2021.</p>
+            
+            <div style = "position:relative;margin-top:50px;"></div>  
+            <blockquote>“The best way to predict the future is to create it.” – Peter Drucker</blockquote>
+            <p> View My <a href="TiaCoversonResume.pdf"> Detailed Resume</a></p>
+            <p> View My Video Resume  <iframe width="560" height="315" src="https://www.youtube.com/embed/nBW0J5K1GXo" title="Video Resume" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+        </div>  
+        <aside class="Professionalpic1">
+            <div style = "position:relative;margin-top:200px;"></div>
+            <img src="Professionalpic1.jpg" alt="Professionalpic1"> 
+        </aside>
+        </main>
+            
+        <footer>
+            <section class="footer-container">
+                <div class="copyright">
+                    <p>
+                        Copyright Tia Coverson 2021 
+                    </p> 
+                </div>
+                <div class="contact-us"><a href="mailto:tlcfht@missouri.edu"><img src="email.jpg" alt="email"> tlcfht@missouri.edu <a href="tel:1+888-888-888"><img src="phone.png" alt="phone"> 1+888-888-888</a>   
+        
+                </div>
+        
+            </section>
+        </footer>
+</body>
+
+</html>
