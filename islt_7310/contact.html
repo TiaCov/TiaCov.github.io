@@ -1,0 +1,106 @@
+
+<!-- Finalized the contact form -->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<link href="favicon.ico" rel="shortcut icon" type="image/ico">
+	<meta charset="utf-8">
+	<title>Contact Me</title>
+	<link href="nav.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	<link href="contact-form.css" rel="contact-form.css">
+    <link href="contact-form-process.php" rel="contact-form-process.php">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+</head>
+<body>
+	<nav id="nav_menu">
+		<label id="hamburger">&#9776;</label>
+		<ul>
+		<div class="wrapper">
+						
+						
+				<header class="header">
+		<input class="menu-btn" id="menu-btn" type="checkbox"> <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+		<ul class="menu">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="about.html">About</a>
+			</li>
+			<li>
+				<a href="#" class="dropdown-link">Projects</a>
+				<ul>
+					<li>
+						<a href="projects.html">Projects Overview</a>
+					</li>
+					<li>
+						<a href="Project1_DigitalMedia.html">Digital Media</a>
+					</li>
+					<li>
+						<a href="Project2_ResearchProposal.html">Research Proposal</a>
+					</li>
+					<li>
+						<a href="Project3_ISDProject.html">ISD Project</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="reflection.html">Reflection</a>
+			</li>
+			<li class="lastMobile">
+				<a href="contact.html">Contact</a>
+			</li>
+		</ul>
+	</header>
+		</div>
+</nav>
+	<main class="Body">
+		<div class="fcf-body">
+			<div id="fcf-form">
+				<h1 class="fcf-h3">Contact Me</h1>
+				<div style="position:relative; margin-top:60px;"></div>
+				<form action="contact-form-process.php" class="fcf-form-class" id="fcf-form-id" method="post" name="fcf-form-id">
+					<div class="fcf-form-group">
+						<label class="fcf-label" for="FName">First name</label>
+						<div class="fcf-input-group">
+							<input class="fcf-form-control" id="FName" name="FName" required="" type="text">
+						</div>
+					</div>
+					<div class="fcf-form-group">
+						<label class="fcf-label" for="LName">Last name</label>
+						<div class="fcf-input-group">
+							<input class="fcf-form-control" id="LName" name="FName" required="" type="text">
+						</div>
+					</div>
+					<div class="fcf-form-group">
+						<label class="fcf-label" for="Email">Your email address</label>
+						<div class="fcf-input-group">
+							<input class="fcf-form-control" id="Email" name="Email" required="" type="email">
+						</div>
+					</div>
+					<div class="fcf-form-group">
+						<label class="fcf-label" for="Message">Your message</label>
+						<div class="fcf-input-group">
+							<textarea class="fcf-form-control" id="Message" maxlength="3000" name="Message" required="" rows="6"></textarea>
+						</div>
+					</div>
+					<div class="fcf-form-group">
+						<button class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block" id="fcf-button" type="submit">Send Message</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<section class="footer-container">
+			<div class="copyright">
+				<p>Copyright Tia Coverson 2021</p>
+			</div>
+			<div class="contact-us">
+				<a href="mailto:tlcfht@missouri.edu"><img alt="email" src="email.jpg"> tlcfht@missouri.edu</a><a href="tel:1+888-888-888"><img alt="phone" src="phone.png"> 1+888-888-888</a>
+			</div>
+		</section>
+	</footer>
+</body>
+</html>
